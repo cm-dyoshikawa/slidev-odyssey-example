@@ -1,0 +1,37 @@
+.slidev-layout {
+    padding: 0px;
+
+    h1 {
+        position: relative;
+
+        background: #EEEEEE;
+        font-size: 30px;
+        padding: 16px 16px 12px 20px;
+        font-weight: bold;
+    }
+
+    h1::after {
+        position: absolute;
+        top: 4px;
+        right: 0;
+
+        width:  179.6px;
+        height: 56.8px;
+        content: "";
+        background-image: url("/odyssey-mini-logo-black.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        padding: 16px;
+        font-size: 29.5px;
+    }
+
+    /* 一番親のul要素にスタイルを適用 */
+    ul:not(ul ul) {
+        padding: 16px;
+        font-size: 29.5px;
+    }
+}
